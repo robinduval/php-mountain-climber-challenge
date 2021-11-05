@@ -1,43 +1,43 @@
 #!/bin/sh
 
-phpunit LevelA;
+./phpunit LevelA;
 LEVELA=$?;
 SCORE=0;
 if [ $LEVELA = 0 ]; then
         SCORE=5;
 fi
 
-phpunit LevelB;
+./phpunit LevelB;
 LEVELB=$?;
 if [ $LEVELB = 0 ]; then
         SCORE=$((SCORE+7));
 fi
 
-phpunit LevelC;
+./phpunit LevelC;
 LEVELC=$?;
 if [ $LEVELC = 0 ]; then
         SCORE=$((SCORE+10));
 fi
 
-phpunit LevelD;
+./phpunit LevelD;
 LEVELD=$?;
 if [ $LEVELD = 0 ]; then
         SCORE=$((SCORE+18));
 fi
 
-phpunit LevelE;
+./phpunit LevelE;
 LEVELE=$?;
 if [ $LEVELE = 0 ]; then
         SCORE=$((SCORE+30));
 fi
 
-phpunit LevelF;
+./phpunit LevelF;
 LEVELF=$?;
 if [ $LEVELF = 0 ]; then
         SCORE=$((SCORE+50));
 fi
 
-phpunit LevelG;
+./phpunit LevelG;
 LEVELG=$?;
 if [ $LEVELG = 0 ]; then
         SCORE=$((SCORE+80));
