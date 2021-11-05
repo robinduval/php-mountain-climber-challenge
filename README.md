@@ -9,17 +9,31 @@ Vous avez le droit de vous aider d'internet. Si vous êtes carrement bloqué ;) 
 
 L'intérêt est de travailler dans un champ de mines (comme dans la vraie), d'intégrer de nouvelles fonctionnalitées sur du code existant sans péter le reste (comme dans la vraie vie).
 
+## Install the environment
+
+### INSTALLER PHP 8
+
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:ondrej/php
+sudo apt update
+sudo apt install php8.0
+
+### INSTALLER COMPOSER
+
+sudo apt install composer
+
+### INSTALLER PHPUNIT
+
+sudo apt-get update
+sudo apt install php-xml
+wget -O phpunit https://phar.phpunit.de/phpunit-9.phar
+chmod +x phpunit
+
+
 ## Initialize the project
 
-Download the zip : https://github.com/robinduval/hackathon-dev-copy/archive/master.zip
-<pre>
-# unzip the tarball
-git init
-git add .
-git commit -m "first commit"
-git remote add origin git@github.com:YOURNAME/hackathon-dev-copy.git
-git push -u origin master
-</pre>
+Fork the project
+Commit and Push on your main branch
 
 ## To install
 <pre>
@@ -30,7 +44,3 @@ git push -u origin master
 <pre>
 ./test.sh
 </pre>
-
-## To launch test in our dashboard
-
-http://hackathon-dashboard.dev
