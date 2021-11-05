@@ -14,8 +14,11 @@ L'intérêt est de travailler dans un champ de mines (comme dans la vraie), d'in
 ### INSTALLER PHP 8
 
 ` sudo apt install software-properties-common `
+
 ` sudo add-apt-repository ppa:ondrej/php `
+
 ` sudo apt update `
+
 ` sudo apt install php8.0 `
 
 ### INSTALLER COMPOSER
@@ -25,8 +28,11 @@ L'intérêt est de travailler dans un champ de mines (comme dans la vraie), d'in
 ### INSTALLER PHPUNIT
 
 ` sudo apt-get update `
+
 ` sudo apt install php-xml `
+
 ` wget -O phpunit https://phar.phpunit.de/phpunit-9.phar `
+
 ` chmod +x phpunit `
 
 ## Initialize the project
