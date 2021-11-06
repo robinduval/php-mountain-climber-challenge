@@ -35,5 +35,4 @@ class LevelATest extends \PHPUnit\Framework\TestCase
 
         $this->assertEquals($token."l\töö\tl".$nekot, $palo->generatePalindrome());
     }
-
 }

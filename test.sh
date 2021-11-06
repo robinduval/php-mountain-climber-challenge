@@ -43,6 +43,58 @@ if [ $LEVELG = 0 ]; then
         SCORE=$((SCORE+80));
 fi
 
+
+
+./phpunit LevelH;
+LEVELH=$?;
+if [ $LEVELH = 0 ]; then
+        SCORE=$((SCORE+80));
+fi
+
+
+./phpunit LevelI;
+LEVELI=$?;
+if [ $LEVELI = 0 ]; then
+        SCORE=$((SCORE+80));
+fi
+
+
+./phpunit LevelJ;
+LEVELJ=$?;
+if [ $LEVELJ = 0 ]; then
+        SCORE=$((SCORE+80));
+fi
+
+
+./phpunit LevelK;
+LEVELK=$?;
+if [ $LEVELK = 0 ]; then
+        SCORE=$((SCORE+80));
+fi
+
+
+./phpunit LevelL;
+LEVELL=$?;
+if [ $LEVELL = 0 ]; then
+        SCORE=$((SCORE+80));
+fi
+
+
+./phpunit LevelM;
+LEVELM=$?;
+if [ $LEVELM = 0 ]; then
+        SCORE=$((SCORE+80));
+fi
+
+
+./phpunit LevelN;
+LEVELN=$?;
+if [ $LEVELN = 0 ]; then
+        SCORE=$((SCORE+80));
+fi
+
+
+
 NAME='plop';
 if [ $1 ]; then
         NAME=$1;
@@ -54,4 +106,4 @@ if [ $2 ]; then
 fi
 
 echo "SCORE:"$SCORE
-echo "$NAME;$DATE;$SCORE" >> ../../../scores.csv
+#echo "$NAME;$DATE;$SCORE" >> ../../../scores.csv

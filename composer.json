@@ -1,10 +1,10 @@
 {
     "name": "robinduval/hackathon",
-    "description": "Hackathon divides in 7 exercices",
+    "description": "Hackathon divides in all exercices",
     "authors": [
         {
             "name": "Robin Duval",
-            "email": "leyoda@gmail.com"
+            "email": "leyoda+hackathon@gmail.com"
         }
     ],
     "minimum-stability": "stable",
