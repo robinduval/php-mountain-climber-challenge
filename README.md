@@ -21,6 +21,8 @@ L'intérêt est de travailler dans un champ de mines (comme dans la vraie), d'in
 
 ` sudo apt install php8.0 `
 
+` sudo apt install php-gd `
+
 ### INSTALLER COMPOSER
 
 ` sudo apt install composer `
