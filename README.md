@@ -41,6 +41,8 @@ L'intérêt est de travailler dans un champ de mines (comme dans la vraie), d'in
 
 Fork the project
 Commit and Push on your main branch
+Don't change test files (we will have our on set of tests)
+Don't change scripts files (we will replace it by our one file)
 
 ## To install
 <pre>
