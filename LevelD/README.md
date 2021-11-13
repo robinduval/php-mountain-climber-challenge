@@ -10,6 +10,4 @@ Lorsque Bobby donne de l'argent, il donne le minimum de billets possible pour re
 Bobby ne récupère pas la monnaie, même si les sommes sont importantes.
 
 Si Bobby n'a pas la somme demandée alors la function giveMoney() retourne false,
-sinon elle retourne true
-
-
+ sinon elle retourne true

@@ -1,4 +1,4 @@
-## Exercice du Niveau B
+## Exercice du Niveau I
 Une distance entre deux mots se définie comme le nombre minimal de caractères
  qu'il faut remplacer, insérer ou supprimer (chaque action coûte 1 point)
  pour transformer la chaîne str1 en str2.

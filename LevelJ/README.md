@@ -1,4 +1,4 @@
-## Exercice du Niveau C
+## Exercice du Niveau J
 
 La steganographie consiste à dissimuler des informations (texte, vidéo, image) dans une autre forme (texte, vidéo, image, ...).
 Vous trouverez dans le code ce qu'il faut pour cacher un message dans une image.

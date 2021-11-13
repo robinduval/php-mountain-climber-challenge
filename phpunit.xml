@@ -9,6 +9,7 @@
             <directory suffix="Test.php">LevelE/Tests</directory>
             <directory suffix="Test.php">LevelF/Tests</directory>
             <directory suffix="Test.php">LevelG/Tests</directory>
+            <directory suffix="Test.php">LevelH/Tests</directory>
             <directory suffix="Test.php">LevelI/Tests</directory>
             <directory suffix="Test.php">LevelJ/Tests</directory>
             <directory suffix="Test.php">LevelK/Tests</directory>

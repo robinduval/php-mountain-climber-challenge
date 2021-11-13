@@ -1,4 +1,4 @@
-## Exercice du Niveau E
+## Exercice du Niveau L
 
 La compression avec perte d'informations permet de générer
   des hashs (clé unique (généralement courte) qui permet d'identifier de manière unique un objet).

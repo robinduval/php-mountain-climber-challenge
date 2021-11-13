@@ -13,4 +13,3 @@ Nous souhaitons vous faire implémenter la recherche.
 Il faut compléter la fonction getFirstElementByValue()
  qui retourne le premier Element de la liste qui a la bonne valeur
  sinon la fonction retourne null.
-

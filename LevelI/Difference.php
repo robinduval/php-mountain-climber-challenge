@@ -4,9 +4,6 @@ namespace Hackathon\LevelI;
 
 /**
  * Class Difference
- * En réalité, il suffit d'implémenter un algorythme bien spécifique.
- * http://jeux-et-mathematiques.davalan.org/lang/algo/lev/index.html
- * https://openclassrooms.com/forum/sujet/distance-de-levenshtein-79426.
  */
 class Difference
 {

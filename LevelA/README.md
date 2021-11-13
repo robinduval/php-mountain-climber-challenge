@@ -10,4 +10,3 @@ ABCCBA est un palindrome
 *Exercice*
 Il faut compléter la fonction generatePalindrome(),
 afin de créer un palindrome à partir de l'attribut $str
-

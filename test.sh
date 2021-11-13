@@ -10,7 +10,7 @@ fi
 ./phpunit LevelB;
 LEVELB=$?;
 if [ $LEVELB = 0 ]; then
-        SCORE=$((SCORE+7));
+        SCORE=$((SCORE+20));
 fi
 
 ./phpunit LevelC;
@@ -22,19 +22,19 @@ fi
 ./phpunit LevelD;
 LEVELD=$?;
 if [ $LEVELD = 0 ]; then
-        SCORE=$((SCORE+18));
+        SCORE=$((SCORE+30));
 fi
 
 ./phpunit LevelE;
 LEVELE=$?;
 if [ $LEVELE = 0 ]; then
-        SCORE=$((SCORE+30));
+        SCORE=$((SCORE+20));
 fi
 
 ./phpunit LevelF;
 LEVELF=$?;
 if [ $LEVELF = 0 ]; then
-        SCORE=$((SCORE+50));
+        SCORE=$((SCORE+80));
 fi
 
 ./phpunit LevelG;
@@ -46,43 +46,43 @@ fi
 ./phpunit LevelH;
 LEVELH=$?;
 if [ $LEVELH = 0 ]; then
-        SCORE=$((SCORE+80));
+        SCORE=$((SCORE+100));
 fi
 
 ./phpunit LevelI;
 LEVELI=$?;
 if [ $LEVELI = 0 ]; then
-        SCORE=$((SCORE+80));
+        SCORE=$((SCORE+30));
 fi
 
 ./phpunit LevelJ;
 LEVELJ=$?;
 if [ $LEVELJ = 0 ]; then
-        SCORE=$((SCORE+80));
+        SCORE=$((SCORE+180));
 fi
 
 ./phpunit LevelK;
 LEVELK=$?;
 if [ $LEVELK = 0 ]; then
-        SCORE=$((SCORE+80));
+        SCORE=$((SCORE+50));
 fi
 
 ./phpunit LevelL;
 LEVELL=$?;
 if [ $LEVELL = 0 ]; then
-        SCORE=$((SCORE+80));
+        SCORE=$((SCORE+150));
 fi
 
 ./phpunit LevelM;
 LEVELM=$?;
 if [ $LEVELM = 0 ]; then
-        SCORE=$((SCORE+80));
+        SCORE=$((SCORE+30));
 fi
 
 ./phpunit LevelN;
 LEVELN=$?;
 if [ $LEVELN = 0 ]; then
-        SCORE=$((SCORE+80));
+        SCORE=$((SCORE+70));
 fi
 
 
