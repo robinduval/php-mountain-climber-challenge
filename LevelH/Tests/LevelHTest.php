@@ -56,6 +56,6 @@ class LevelHTest extends \PHPUnit\Framework\TestCase
         $time = $stopedAt - $startedAt;
 
         echo $time;
-        $this->assertLessThanOrEqual(0.3, $time);
+        $this->assertLessThanOrEqual(0.05, $time);
     }
 }

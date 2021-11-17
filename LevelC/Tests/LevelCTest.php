@@ -4,7 +4,7 @@ namespace Hackathon\LevelC\Tests;
 
 use Hackathon\LevelC\RotationString;
 
-class LevelTreeTest extends \PHPUnit\Framework\TestCase
+class LevelCTest extends \PHPUnit\Framework\TestCase
 {
     public function testA()
     {
