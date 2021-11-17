@@ -29,11 +29,6 @@ class Bobby
         for ($i=count($this->wallet) - 1; $i >= 0 ; $i--) {
             $element = $this->wallet[$i];
             if (is_numeric($element) && $element <= ($price - $given)) {
-                print("element ");
-                print($element);
-                print('at ');
-                print($i);
-                print('\n');
                 $given += $element;
                 array_splice($this->wallet, $i, 1);
             }
