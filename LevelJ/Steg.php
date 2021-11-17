@@ -147,9 +147,39 @@ class Steg
      */
     public function show($dst)
     {
-        $msg = '000010000100001000000';
+        $msg = '';
+        $stop = 0;
+        $image = ImageCreateFromPng($dst);
+        list($width, $height) = getimagesize($dst);
+        for ($i = 0; $i < $width; ++$i) {
+            for ($j = 0; $j < $height; ++$j) {
+                $rgb = imagecolorat($image, $i, $j);
+                $r = ($rgb >> 16) & 0xFF;
+                $g = ($rgb >> 8) & 0xFF;
+                $b = $rgb & 0xFF;
+        
+                if ($stop === 6) {
+                    $this->bin2Text($msg);
+                    return true;
+                }
+                // La valeur est stocké dans le bit de poids faible de la couleur bleu.
+                // On regarde la valeur binaire du bleu
+                $blue = decbin($b);
+    
+                //get le dernier char dans le bleu
+                $char = substr($blue, -1);
+    
+                $msg .= $char;
+    
+                // On gère ici la fin du "planquage" :)
+                if ('1' === $char) {
+                    ++$stop;
+                } else {
+                    $stop = 0;
+                }
+            }
+        }
         $this->bin2Text($msg);
-
         return true;
     }
 
