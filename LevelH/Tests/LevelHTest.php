@@ -9,6 +9,7 @@ class LevelHTest extends \PHPUnit\Framework\TestCase
 {
     public function testA()
     {
+
         $geo = new Geo();
         $myCities = new CitiesData();
         $idSrc = 2659933;
@@ -57,5 +58,32 @@ class LevelHTest extends \PHPUnit\Framework\TestCase
 
         echo $time;
         $this->assertLessThanOrEqual(0.05, $time);
+    }
+
+
+    public function testF()
+    {
+        $startedAt = microtime(true);
+
+        $geo = new Geo();
+        $myCities = new CitiesData();
+        $idSrc = 11103547;
+        $srcCity = $myCities->getCityInfoById($idSrc);
+
+        $closestCity = $geo->getClosestCityFromId($srcCity['id']);
+        $closestCity = $geo->getClosestCityFromId($srcCity['id']);
+        $closestCity = $geo->getClosestCityFromId($srcCity['id']);
+        $closestCity = $geo->getClosestCityFromId($srcCity['id']);
+        $closestCity = $geo->getClosestCityFromId($srcCity['id']);
+        $closestCity = $geo->getClosestCityFromId($srcCity['id']);
+
+        $this->assertEquals($srcCity['city'], "Hot Dog Town");
+        $this->assertEquals(md5($closestCity['city']), "3dcfbb736e3f322f20569fdcc83691e7");
+
+        $stopedAt = microtime(true);
+        $time = $stopedAt - $startedAt;
+
+        echo $time;
+        $this->assertLessThanOrEqual(0.5, $time);
     }
 }
